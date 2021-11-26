@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&family=Open+Sans:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Handlee", cursive;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(./images/bg.jpg) no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0.3em;
+}
+
+#countdown {
+  background: rgba(79, 236, 21, 0.74);
+  padding: 0.5em;
+  font-size: 2.5rem;
+  color: #fff;
+  border-radius: 15px;
+  display: block;
+}
