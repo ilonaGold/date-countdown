@@ -1,3 +1,5 @@
+import confetti from 'https://cdn.skypack.dev/canvas-confetti';
+
 const countTo = new Date("1 Jan 2022").getTime();
 
 const c = setInterval(() => {
@@ -17,8 +19,11 @@ const c = setInterval(() => {
 
     if (totalSeconds < 0) {
         clearInterval(c);
-        countDown.textContent = "Happy New Year!";
-    }
+        countDown.textContent = "Happy New Year! 🎉";
+        for (let i = 0; i <= 20; i++) {
+            confetti();
+        }
+   }
 
 }, 1000)
 
