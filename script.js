@@ -1,6 +1,6 @@
 import confetti from 'https://cdn.skypack.dev/canvas-confetti';
 
-const countTo = new Date("1 Jan 2021").getTime();
+const countTo = new Date("1 Jan 2022").getTime();
 
 const c = setInterval(() => {
 
